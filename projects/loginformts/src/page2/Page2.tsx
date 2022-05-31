@@ -1,12 +1,15 @@
-import NavBar from "../navbar/NavBar";
+import { Component } from "react";
+import NavBar from "../component/navbar/NavBar";
 
-const Page2 = () => {
-    return (
-        <>
-        <NavBar/>
-        <div>Page 2</div>
-        </>
-    );
+class Page2 extends Component {
+    render(){
+        return (
+            <>
+            <NavBar/>
+            <div>Page 2</div>
+            </>
+        );
+    }
 }
 
 export default Page2;
