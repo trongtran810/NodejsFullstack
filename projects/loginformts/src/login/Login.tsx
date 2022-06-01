@@ -1,5 +1,7 @@
 import { Component } from "react";
+import LoginButton from "../component/loginbutton/LoginButton";
 import LoginInput from "../component/logininput/LoginInput";
+import LogoutButton from "../component/logoutbutton/logoutbutton";
 import NavBar from "../component/navbar/NavBar";
 
 class Login extends Component {
@@ -9,6 +11,8 @@ class Login extends Component {
             <NavBar/>
             <div>Login page</div>
             <LoginInput/>
+            <LoginButton/>
+            <LogoutButton/>
             </>
         );
     }
